@@ -1,0 +1,9 @@
+version: '2'
+services:
+  ahab:
+    hostname: ahab
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
