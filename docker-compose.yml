@@ -1,7 +1,36 @@
 version: '2'
 services:
-  ahab:
-    hostname: ahab
+  ahab1:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab2:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab3:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab4:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab5:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab6:
     image: mobilityhouse/ahab
     build:
       context: .
