@@ -36,3 +36,45 @@ services:
       context: .
       dockerfile: ./ahab/Dockerfile.template
     network_mode: host
+  ahab7:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab8:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab9:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab10:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab11:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab12:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
+  ahab13:
+    image: mobilityhouse/ahab
+    build:
+      context: .
+      dockerfile: ./ahab/Dockerfile.template
+    network_mode: host
