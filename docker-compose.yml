@@ -1,6 +1,21 @@
 version: '2'
 services:
-  ahab:
+  ahab1:
     image: balenalib/raspberrypi3-debian
     command: balena-idle
 
+  ahab2:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab3:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab4:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab5:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
