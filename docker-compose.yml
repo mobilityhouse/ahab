@@ -59,3 +59,63 @@ services:
   ahab15:
     image: balenalib/raspberrypi3-debian
     command: balena-idle
+
+  ahab16:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab17:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab18:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab19:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab20:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab21:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab22:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab23:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab24:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab25:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab26:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab27:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab28:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab29:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
+
+  ahab30:
+    image: balenalib/raspberrypi3-debian
+    command: balena-idle
